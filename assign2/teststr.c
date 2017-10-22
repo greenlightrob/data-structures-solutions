@@ -142,20 +142,5 @@ printf("enter position : ");
 scanf("%d",&pos);
 repsub(str1,str2,pos);
 printf("new string : %s\n\n\n",str1);
-/*
-Run seperately...
-Put the remaining code in the comments & 
-only then run the below portion
 
-printf("*********TITLE CASE*******\n");
-printf("enter string : ");
-gets(str);
-titlecs(str);
-printf("title case string : %s\n\n\n",str);
-
-printf("*********WORD AND CHARACTER COUNT*******\n");
-printf("enter string : ");			
-gets(str);
-wordcnt(str);
-*/
 }
