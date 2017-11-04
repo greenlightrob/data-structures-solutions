@@ -3,14 +3,14 @@
 My solutions to the CO203-Data structures and algorithms course
 
 ## Contents :
- - Assignment-1 (Array)
- - Assignment-2 (String manipulation) 
- - Assignment-3 (Stack)
- - Assignment-4 (Infix and postfix evaluation)
- - Assignment-5 (Link list)
+ - [a relative link](assign1)Assignment-1 (Array)
+ - [a relative link](assign2)Assignment-2 (String manipulation) 
+ - [a relative link](assign3)Assignment-3 (Stack)
+ - [a relative link](assign4)Assignment-4 (Infix and postfix evaluation)
+ - [a relative link](assign5)Assignment-5 (Link list)
     - Linear
     - Linear ordered
     - Doubly linked
     - Circular
     - Doubly circular
- - Assignment-6 (Queue application)
+ - [a relative link](assign6)Assignment-6 (Queue application)
