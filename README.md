@@ -11,6 +11,6 @@ My solutions to the CO203-Data structures and algorithms course
     - Linear
     - Linear ordered
     - Doubly linked
-    - Circular
-     - Doubly circular
+    - Doubly circular
+    - Circular linear
  - [Assignment-6](assign6) (Queue application)
