@@ -105,34 +105,34 @@ int main()
 		 }
 		 break;
 		case 3:
-		if(root==NULL)
+		{if(root==NULL)
 			printf("Empty tree\n");
 		else
 		{
 		printf("Preorder : \n");
 		 preorder(root);
 		printf("\n");
-		}
+		}}
 		 break;
 		case 4:
-		if(root==NULL)
+		{if(root==NULL)
 			printf("Empty tree\n");
 		else
 			{
 		printf("Postorder : \n");
 		 postorder(root);
 		printf("\n");
-		}
+		}}
 		 break;
 		case 5:
-		if(root==NULL)
+		{if(root==NULL)
 			printf("Empty tree\n");
 		else
 			{
 		printf("Inorder : \n");
 		 inorder(root);
 		 printf("\n");
-		 	}
+		 	}}
 		 break;
 		case 6:
 		 exit(1);

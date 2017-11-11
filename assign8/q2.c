@@ -35,13 +35,22 @@ int nodeno(struct node* node)
     return nodeno(node->lptr) + 1 + nodeno(node->rptr);  
 }
 
+void preorder(struct node *root)
+{
+     if (root != NULL)
+       {
+     printf("%d -> ", root->data);  
+     preorder(root->lptr);  
+     preorder(root->rptr);
+ }
+}
 int main()
 {
 	int ch;
 
 	while(1)
 	{	
-		printf("\nMenu\n1.Insert\n2.Number of nodes\n3.Exit\nEnter your choice : ");
+		printf("\nMenu\n1.Insert\n2.Number of nodes\n3.Preorder\n4.Exit\nEnter your choice : ");
 		scanf("%d",&ch);
 	switch(ch)
 	{
@@ -62,6 +71,16 @@ int main()
 		   }
 		   break;
 		case 3:
+		{if(root==NULL)
+			printf("Empty tree\n");
+		else
+		{
+		printf("Preorder : \n");
+		 preorder(root);
+		printf("\n");
+		}}
+		 break;
+		case 4:
 		 exit(1);
 
 	}

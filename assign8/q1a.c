@@ -41,6 +41,15 @@ int depth(struct node *node)
        	   return r+1;
    }
 } 
+void preorder(struct node *root)
+{
+     if (root != NULL)
+       {
+     printf("%d -> ", root->data);  
+     preorder(root->lptr);  
+     preorder(root->rptr);
+ }
+}
 
 int main()
 {
@@ -48,7 +57,7 @@ int main()
 
 	while(1)
 	{	
-		printf("\nMenu\n1.Insert\n2.Depth\n3.Exit\nEnter your choice : ");
+		printf("\nMenu\n1.Insert\n2.Depth\n3.Preorder\n4.Exit\nEnter your choice : ");
 		scanf("%d",&ch);
 	switch(ch)
 	{
@@ -69,6 +78,16 @@ int main()
 		   }
 		   break;
 		case 3:
+		{if(root==NULL)
+			printf("Empty tree\n");
+		else
+		{
+		printf("Preorder : \n");
+		 preorder(root);
+		printf("\n");
+		}}
+		 break;
+		case 4:
 		 exit(1);
 
 	}
