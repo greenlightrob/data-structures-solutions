@@ -1,3 +1,11 @@
+/***********************************************************
+ 
+     Doubly linked linear list
+ 
+ Author: leonatwork(Noel Aby Das)
+ 
+ **********************************************************/
+
 #include<stdio.h>
 #include<stdlib.h>
 struct node
