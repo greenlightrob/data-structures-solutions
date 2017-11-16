@@ -14,3 +14,5 @@ My solutions to the CO203-Data structures and algorithms course
     - Doubly circular
     - Circular linear
  - [Assignment-6](assign6) (Queue application)
+ - [Assignment-7](assign7) (Linked list functions)
+ - [Assignment-8](assign8) (Binary tree and BST)
