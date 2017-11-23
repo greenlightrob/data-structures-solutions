@@ -1,3 +1,10 @@
+/***********************************************************
+ 
+ Program to delete duplicate elements from an ordered link list
+ 
+ Author: leonatwork(Noel Aby Das)
+ 
+ **********************************************************/
 #include<stdio.h>
 #include<stdlib.h>
 struct node

@@ -1,3 +1,11 @@
+/***********************************************************
+ 
+ Program to implement functionalitites of a web browser
+ like forward and backward using deque
+ 
+ Author: leonatwork(Noel Aby Das)
+ 
+ **********************************************************/
 #include<stdio.h>
 #include<stdlib.h>
 struct node
@@ -80,7 +88,7 @@ int main()
 {
 int n;
 printf("Browswer\n");
-printf("enter choice\n1.open link\n2.forward\n3.back\n4.history\n5.exit");
+printf("enter choice\n1.open link\n2.forward\n3.back\n4.exit");
 while(1)
 {
 printf("\nenter choice : ");
@@ -97,10 +105,7 @@ switch(n)
  case 3:
   back();
   break;
- case 4:
-  //history();
-  break;
- case 5:
+case 4:
   exit(1);
 }
 

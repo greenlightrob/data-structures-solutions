@@ -1,3 +1,10 @@
+/***********************************************************
+ 
+     Program to reverse a doubly linked list
+ 
+ Author: leonatwork(Noel Aby Das)
+ 
+ **********************************************************/
 #include <stdio.h>
 #include <stdlib.h>
 

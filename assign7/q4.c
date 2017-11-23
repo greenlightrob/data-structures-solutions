@@ -1,3 +1,10 @@
+/***********************************************************
+ 
+ Program to split a given list into two parts of equal size
+ 
+ Author: leonatwork(Noel Aby Das)
+ 
+ **********************************************************/
 #include <stdio.h>
 #include <stdlib.h>
 

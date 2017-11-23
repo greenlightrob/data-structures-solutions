@@ -1,3 +1,10 @@
+/***********************************************************
+ 
+ Program to swap two consecutive nodes in a link list
+ 
+ Author: leonatwork(Noel Aby Das)
+ 
+ **********************************************************/
 #include<stdio.h>
 #include<stdlib.h>
 struct node
