@@ -1,3 +1,10 @@
+/***********************************************************
+ 
+ Program to find depth of a binary search tree
+ 
+ Author: leonatwork(Noel Aby Das)
+ 
+ **********************************************************/
 #include <stdio.h>
 #include <stdlib.h>
 struct node

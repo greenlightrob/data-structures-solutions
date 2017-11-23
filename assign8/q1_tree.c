@@ -1,3 +1,11 @@
+/***********************************************************
+ 
+ Program to implement a binary search tree and perform
+ insertion, searching and (pre/post/in)traversal operations
+ 
+ Author: leonatwork(Noel Aby Das)
+ 
+ **********************************************************/
 #include <stdio.h>
 #include <stdlib.h>
 struct node

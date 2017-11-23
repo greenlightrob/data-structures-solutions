@@ -1,3 +1,10 @@
+/***********************************************************
+ 
+             Program to delete a binary tree
+ 
+ Author: leonatwork(Noel Aby Das)
+ 
+ **********************************************************/
 #include <stdio.h>
 #include <stdlib.h>
 struct node

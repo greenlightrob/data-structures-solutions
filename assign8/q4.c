@@ -1,3 +1,10 @@
+/***********************************************************
+ 
+ Program to find the minimum and maximum element in a BST
+ 
+ Author: leonatwork(Noel Aby Das)
+ 
+ **********************************************************/
 #include <stdio.h>
 #include <stdlib.h>
 struct node
